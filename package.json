@@ -1,0 +1,31 @@
+{
+  "name": "@ceofyeast/prodchaincalculators-server",
+  "version": "5.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CEOFYEAST/ProdChainCalculators-server.git"
+  },
+  "author": "ceofyeast",
+  "exports": {
+    "./irptu": "./scripts/prod-chain-irptu.module.js",
+    "./utility": "./scripts/prod-chain-utility.module.js",
+    "./config": "./scripts/config.module.js",
+    "./recipes": "./scripts/recipes.module.js",
+    "./calculators": "./scripts/irptu-calculators.module.js",
+    "./validators": "./scripts/validators.module.js"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CEOFYEAST/ProdChainCalculators-server/issues"
+  },
+  "homepage": "https://github.com/CEOFYEAST/ProdChainCalculators-server#readme",
+  "dependencies": {
+    "@ceofyeast/prodchaincalculators": "^6.0.0"
+  }
+}
