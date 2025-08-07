@@ -108,7 +108,14 @@ function clearEmptyData(prodChainData){
 function tryAddItemData(itemID, prodChainData) {
     // adds ingredient representation to output if it doesn't already exist.
     if (!prodChainData.hasOwnProperty(itemID)) {
+        const name = recipes[itemID]["name"];
+        // replaces all spaces with underscores
+        const thumbDir = name.replace(/\s+/g, '_') + '.png';
+        const thumbName = `32px-${thumbDir}`;
         let itemData = {
+            name,
+            thumbDir,
+            thumbName,
             userIRPTU: 0,
             intermIRPTU: 0,
             dependentItems: {},

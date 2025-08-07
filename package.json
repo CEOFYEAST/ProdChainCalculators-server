@@ -1,6 +1,6 @@
 {
   "name": "@ceofyeast/prodchaincalculators-server",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -18,7 +18,8 @@
     "./config": "./scripts/config.module.js",
     "./recipes": "./scripts/recipes.module.js",
     "./calculators": "./scripts/irptu-calculators.module.js",
-    "./validators": "./scripts/validators.module.js"
+    "./validators": "./scripts/validators.module.js",
+    "./graph": "./scripts/graph-transformer.module.js"
   },
   "license": "ISC",
   "bugs": {
