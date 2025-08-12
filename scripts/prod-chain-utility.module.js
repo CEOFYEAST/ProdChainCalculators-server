@@ -85,17 +85,30 @@ function recalculateTimeUnit(prodChainObject, newTimeUnit) {
  * @returns An empty object representation of a production chain
  */
 function createProductionChainObject(){
+    let timeUnit = "minute"
+
     if (arguments.length === 1 && typeof arguments[0] === 'string') {
         validators.validateTimeUnit(arguments[0])
         
-        return {
-            timeUnit: arguments[0],
-            prodChain: {}
-        }
+        timeUnit = arguments[0]
     }  
 
     return {
-        timeUnit: "minute",
+        timeUnit,
+        crafterConfig: {
+            "miner": "electric-mining-drill",
+            "smelter": "steel-furnace",
+            "assembler": "assembling-machine-1",
+            "fluid-assembler": "assembling-machine-2",
+            "chem": "chemical-plant",
+            "centrifuge": "centrifuge",
+            "oil-pump": "pumpjack",
+            "refinery": "oil-refinery",
+            "silo": "rocket-silo",
+            "reactor": "nuclear-reactor",
+            "water-pump": "offshore-pump",
+            "manual": ""
+        },
         prodChain: {}
     }
 }

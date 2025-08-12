@@ -29,9 +29,12 @@ function addIRPTU(itemID, amount, prodChainObject, timeUnit) {
     Validators.validateProdChainData(prodChainData)
 
     let demandInfoOutput = {}
+    const crafterConfig = prodChainObject["crafterConfig"]
+    const currTimeUnit = prodChainObject["timeUnit"]
     Calculators.calculateIntermediaryDemand(itemID, amount, demandInfoOutput)
-    Calculators.updateProdChainIntermediaryDemand(prodChainData, demandInfoOutput)
-    Calculators.updateProdChainUserDemand(itemID, amount, prodChainData)
+    Calculators.updateProdChainIntermediaryDemand(prodChainData, crafterConfig, demandInfoOutput)
+    Calculators.updateProdChainUserDemand(itemID, amount, prodChainData, crafterConfig)
+    Calculators.updateProdChainCrafterData(prodChainData, timeUnit)
     Calculators.clearEmptyData(prodChainData)
 
     prodChainObject["prodChain"] = prodChainData
@@ -60,9 +63,12 @@ function subtractIRPTU(itemID, amount, prodChainObject, timeUnit) {
 
     amount = amount * -1;
     let demandInfoOutput = {}
+    const crafterConfig = prodChainObject["crafterConfig"]
+    const currTimeUnit = prodChainObject["timeUnit"]
     Calculators.calculateIntermediaryDemand(itemID, amount, demandInfoOutput)
-    Calculators.updateProdChainIntermediaryDemand(prodChainData, demandInfoOutput)
-    Calculators.updateProdChainUserDemand(itemID, amount, prodChainData)
+    Calculators.updateProdChainIntermediaryDemand(prodChainData, crafterConfig, currTimeUnit, demandInfoOutput)
+    Calculators.updateProdChainUserDemand(itemID, amount, prodChainData, crafterConfig)
+    Calculators.updateProdChainCrafterData(prodChainData, timeUnit)
     Calculators.clearEmptyData(prodChainData)
 
     prodChainObject["prodChain"] = prodChainData

@@ -5,6 +5,7 @@
  */
 
 import recipes from "./recipes.module.js"
+import { getTimeUnitConversionRatio } from "./helpers.module.js"
 
 function calculateIntermediaryDemand(reqItem_ID, reqItem_IRPTU, demandOutput){
     tryAddRequiredItem(reqItem_ID, demandOutput)
@@ -42,6 +43,7 @@ function calculateIntermediaryDemand(reqItem_ID, reqItem_IRPTU, demandOutput){
 
         addIngredientDemand(reqItem_ID, intermediary_ID, intermediary_IRPTU, demandOutput);
 
+        // recursive step
         calculateIntermediaryDemand(intermediary_ID, intermediary_IRPTU, demandOutput);
     }
 }
@@ -50,9 +52,9 @@ function calculateIntermediaryDemand(reqItem_ID, reqItem_IRPTU, demandOutput){
  * Adds the demand from the supplied demand data object to the supplied production chain data object
  * Demand being added can be positive or negative
  */
-function updateProdChainIntermediaryDemand(prodChainData, demandOutput){
+function updateProdChainIntermediaryDemand(prodChainData, crafterConfig, demandOutput){
     for (let requiredItemID in demandOutput) {
-        tryAddItemData(requiredItemID, prodChainData)
+        tryAddItemData(requiredItemID, crafterConfig, prodChainData)
 
         let requiredItemDemand = demandOutput[requiredItemID]
         let requiredItemData = prodChainData[requiredItemID]
@@ -88,12 +90,45 @@ function updateProdChainIntermediaryDemand(prodChainData, demandOutput){
 
         prodChainData[requiredItemID] = requiredItemData;
     }
+
+    return prodChainData
 }
 
-function updateProdChainUserDemand(itemID, amount, prodChainData){
-    tryAddItemData(itemID, prodChainData);
+function updateProdChainUserDemand(itemID, amount, prodChainData, crafterConfig){
+    tryAddItemData(itemID, crafterConfig, prodChainData);
 
     prodChainData[itemID]["userIRPTU"] += amount
+}
+
+function updateProdChainCrafterData(prodChainData, timeUnit) {
+    for (let requiredItemID in prodChainData) {
+        // update crafter count demand
+        /**
+         * - Perform multiplication of craft time vs crafter speed to get time per craft in seconds
+         * - Convert time per craft to proper time unit
+         * - Multiply time per craft by crafts required per time unit to get total time required for all crafts
+         * - divide total time required by time per craft to get count of crafters required
+         */
+        let requiredItemData = prodChainData[requiredItemID]
+
+        const recipe = recipes[requiredItemID]
+        const craftTime = recipe["recipe"]["time"]
+        const recipeYield = recipe["recipe"]["yield"]
+        const crafter = requiredItemData["crafter"]
+        const crafterSpeed = recipes[crafter]["crafting-speed"]
+        const craftTimePerItem = (craftTime / crafterSpeed) / recipeYield; // seconds per item
+        const craftRate = getTimeUnitConversionRatio("second", timeUnit) / craftTimePerItem; // items per timeUnit
+        const targetRate = requiredItemData["userIRPTU"] + requiredItemData["intermIRPTU"]; // items per timeUnit
+        const craftersRequired = targetRate / craftRate;
+
+        // const totalTimeRequired = timePerCraft * craftsPerTimeUnit
+        // const craftersRequired = totalTimeRequired / timePerCraft
+        requiredItemData["crafterCount"] = craftersRequired
+
+        prodChainData[requiredItemID] = requiredItemData;
+    }
+
+    return prodChainData
 }
 
 function clearEmptyData(prodChainData){
@@ -105,17 +140,22 @@ function clearEmptyData(prodChainData){
     }
 }
 
-function tryAddItemData(itemID, prodChainData) {
+function tryAddItemData(itemID, crafterConfig, prodChainData) {
     // adds ingredient representation to output if it doesn't already exist.
     if (!prodChainData.hasOwnProperty(itemID)) {
         const name = recipes[itemID]["name"];
         // replaces all spaces with underscores
         const thumbDir = name.replace(/\s+/g, '_') + '.png';
         const thumbName = `32px-${thumbDir}`;
+        let crafterCategory = recipes[itemID]["crafter-category"];
+        if(crafterCategory === undefined) crafterCategory = "assembler"
+        const crafter = crafterConfig[crafterCategory];
         let itemData = {
             name,
             thumbDir,
             thumbName,
+            crafter,
+            crafterCount: 0,
             userIRPTU: 0,
             intermIRPTU: 0,
             dependentItems: {},
@@ -162,5 +202,6 @@ export {
     calculateIntermediaryDemand,
     updateProdChainIntermediaryDemand,
     updateProdChainUserDemand,
+    updateProdChainCrafterData,
     clearEmptyData
 }

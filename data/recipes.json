@@ -5,6 +5,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Accumulator",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -26,6 +27,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Active_provider_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -51,6 +53,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Advanced_circuit",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 6,
         "yield": 1,
@@ -76,6 +79,7 @@
       "type": "Logic",
       "wiki_link": "https://wiki.factorio.com/Arithmetic_combinator",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -97,6 +101,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Artillery_shell",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -122,6 +127,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Artillery_targeting_remote",
       "category": "Combat",
+      "crafter-category": "manual",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -143,6 +149,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Artillery_turret",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 40,
         "yield": 1,
@@ -172,6 +179,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Artillery_wagon",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 4,
         "yield": 1,
@@ -205,6 +213,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Assembling_machine_1",
       "category": "Production",
+      "crafter-categories": ["assembler"],
+      "crafter-category": "assembler",
+      "crafting-speed": 0.5,
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -230,6 +241,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Assembling_machine_2",
       "category": "Production",
+      "crafter-categories": ["assembler", "fluid-assembler"],
+      "crafter-category": "assembler",
+      "crafting-speed": 0.75,
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -259,6 +273,8 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Assembling_machine_3",
       "category": "Production",
+      "crafter-category": "assembler",
+      "crafting-speed": 1.25,
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -280,6 +296,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Atomic_bomb",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 50,
         "yield": 1,
@@ -305,6 +322,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Battery",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -330,6 +348,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Battery_MK1",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -351,6 +370,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Battery_MK2",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -372,6 +392,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Beacon",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -401,6 +422,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Big_electric_pole",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -422,6 +444,7 @@
       "type": "Tool",
       "wiki_link": "https://wiki.factorio.com/Blueprint",
       "category": "Production",
+      "crafter-category": "manual",
       "recipe": {
         "time": null,
         "yield": null,
@@ -434,6 +457,7 @@
       "type": "Tool",
       "wiki_link": "https://wiki.factorio.com/Blueprint_book",
       "category": "Production",
+      "crafter-category": "manual",
       "recipe": {
         "time": null,
         "yield": null,
@@ -446,6 +470,8 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Boiler",
       "category": "Production",
+      "crafter-categories": [ "boiler" ],
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -467,6 +493,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Buffer_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -492,6 +519,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Burner_inserter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -513,6 +541,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Burner_mining_drill",
       "category": "Production",
+      "crafter-categories": ["miner"],
+      "crafting-speed": 0.25,
+      "crafter-category": "assembler",
       "recipe": {
         "time": 4,
         "yield": 1,
@@ -538,6 +569,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Cannon_shell",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -563,6 +595,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Car",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -588,6 +621,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Cargo_wagon",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 1,
         "yield": 1,
@@ -613,6 +647,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Centrifuge",
       "category": "Production",
+      "crafter-categories": ["centrifuge"],
+      "crafting-speed": 1,
+      "crafter-category": "assembler",
       "recipe": {
         "time": 4,
         "yield": 1,
@@ -642,6 +679,8 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Chemical_plant",
       "category": "Production",
+      "crafter-category": "assembler",
+      "crafting-speed": "1",
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -671,6 +710,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Cliff_explosives",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -696,6 +736,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Cluster_grenade",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -721,9 +762,10 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Coal",
       "category": "Intermediate product",
+      "crafter-category": "miner",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 1,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -733,6 +775,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Combat_shotgun",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -762,6 +805,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Concrete",
       "category": "Logistics",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 10,
         "yield": 10,
@@ -787,6 +831,7 @@
       "type": "Logic",
       "wiki_link": "https://wiki.factorio.com/Constant_combinator",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -808,6 +853,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Construction_robot",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -829,6 +875,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Copper_cable",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 2,
@@ -846,9 +893,10 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Copper_ore",
       "category": "Intermediate product",
+      "crafter-category": "miner",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 1,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -858,6 +906,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Copper_plate",
       "category": "Intermediate product",
+      "crafter-category": "smelter",
       "recipe": {
         "time": 3.5,
         "yield": 1,
@@ -875,6 +924,7 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Crude_oil",
       "category": "Intermediate product",
+      "crafter-category": "oil-pump",
       "recipe": {
         "time": null,
         "yield": null,
@@ -887,9 +937,10 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Crude_oil_barrel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 0.2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -899,6 +950,7 @@
       "type": "Logic",
       "wiki_link": "https://wiki.factorio.com/Decider_combinator",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -920,6 +972,7 @@
       "type": "Tool",
       "wiki_link": "https://wiki.factorio.com/Deconstruction_planner",
       "category": "category_TODO",
+      "crafter-category": "manual",
       "recipe": {
         "time": null,
         "yield": null,
@@ -932,6 +985,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Defender_capsule",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -957,6 +1011,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Destroyer_capsule",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -978,6 +1033,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Discharge_defense",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -1003,6 +1059,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Discharge_defense_remote",
       "category": "Combat",
+      "crafter-category": "manual",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1020,6 +1077,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Distractor_capsule",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -1041,6 +1099,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Efficiency_module",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -1062,6 +1121,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Efficiency_module_2",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 30,
         "yield": 1,
@@ -1087,6 +1147,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Efficiency_module_3",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 60,
         "yield": 1,
@@ -1112,6 +1173,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Electric_engine_unit",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -1137,6 +1199,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Electric_furnace",
       "category": "Production",
+      "crafter-categories": ["smelter"],
+      "crafter-category": "assembler",
+      "crafting-speed": 2,
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -1162,6 +1227,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Electric_mining_drill",
       "category": "Production",
+      "crafter-categories": ["miner"],
+      "crafter-category": "assembler",
+      "crafting-speed": 0.5,
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -1187,6 +1255,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Electronic_circuit",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1208,6 +1277,7 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Empty_barrel",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 1,
         "yield": 1,
@@ -1225,6 +1295,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Energy_shield",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -1246,6 +1317,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Energy_shield_MK2",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -1267,6 +1339,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Engine_unit",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -1292,6 +1365,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Exoskeleton",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -1317,6 +1391,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Explosive_cannon_shell",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -1342,6 +1417,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Explosive_rocket",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -1363,6 +1439,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Explosive_uranium_cannon_shell",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 12,
         "yield": 1,
@@ -1384,6 +1461,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Explosives",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": 5,
         "yield": 2,
@@ -1409,6 +1487,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Express_splitter",
       "category": "Logistics",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -1438,6 +1517,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Express_transport_belt",
       "category": "Logistics",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1463,6 +1543,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Express_underground_belt",
       "category": "Logistics",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 2,
         "yield": 2,
@@ -1488,6 +1569,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Fast_inserter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1513,6 +1595,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Fast_splitter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -1538,6 +1621,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Fast_transport_belt",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1559,6 +1643,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Fast_underground_belt",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 2,
         "yield": 2,
@@ -1580,6 +1665,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Filter_inserter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1601,6 +1687,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Firearm_magazine",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 1,
         "yield": 1,
@@ -1618,6 +1705,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Flamethrower",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -1639,6 +1727,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Flamethrower_ammo",
       "category": "Combat",
+      "crafter-category": "chem",
       "recipe": {
         "time": 6,
         "yield": 1,
@@ -1664,6 +1753,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Flamethrower_turret",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 20,
         "yield": 1,
@@ -1693,6 +1783,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Fluid_wagon",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 1.5,
         "yield": 1,
@@ -1722,6 +1813,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Flying_robot_frame",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 20,
         "yield": 1,
@@ -1751,6 +1843,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Gate",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1776,6 +1869,7 @@
       "type": "Logic",
       "wiki_link": "https://wiki.factorio.com/Green_wire",
       "category": "Logistics",
+      "crafter-category": "manual",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -1797,6 +1891,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Grenade",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -1818,6 +1913,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Gun_turret",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -1843,6 +1939,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Hazard_concrete",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.25,
         "yield": 10,
@@ -1860,6 +1957,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Heat_exchanger",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -1885,6 +1983,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Heat_pipe",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 1,
         "yield": 1,
@@ -1906,6 +2005,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Heavy_armor",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -1927,6 +2027,7 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Heavy_oil",
       "category": "Intermediate product",
+      "crafter-category": "refinery",
       "recipe": {
         "time": null,
         "yield": null,
@@ -1939,9 +2040,10 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Heavy_oil_barrel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 0.2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -1951,6 +2053,7 @@
       "type": "Science pack",
       "wiki_link": "https://wiki.factorio.com/High_tech_science_pack",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 14,
         "yield": 2,
@@ -1980,6 +2083,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Inserter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2005,6 +2109,7 @@
       "type": "Tool",
       "wiki_link": "https://wiki.factorio.com/Iron_axe",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2026,6 +2131,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Iron_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2043,6 +2149,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Iron_gear_wheel",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2060,10 +2167,10 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Iron_ore",
       "category": "Intermediate product",
+      "crafter-category": "miner",
       "recipe": {
-        "time": null,
-        "yield": null,
-        "ingredients": []
+        "time": 1,
+        "yield": 1
       }
     },
     "iron-plate": {
@@ -2072,6 +2179,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Iron_plate",
       "category": "Intermediate product",
+      "crafter-category": "smelter",
       "recipe": {
         "time": 3.5,
         "yield": 1,
@@ -2089,6 +2197,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Iron_stick",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 2,
@@ -2106,6 +2215,7 @@
       "type": "Process",
       "wiki_link": "https://wiki.factorio.com/Kovarex_enrichment_process",
       "category": "Intermediate product",
+      "crafter-category": "centrifuge",
       "recipe": {
         "time": 50,
         "yield": null,
@@ -2127,6 +2237,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Lab",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -2152,6 +2263,7 @@
       "type": "Logic",
       "wiki_link": "https://wiki.factorio.com/Lamp",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2177,6 +2289,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Land_mine",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 5,
         "yield": 4,
@@ -2198,6 +2311,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Landfill",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2215,6 +2329,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Laser_turret",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 20,
         "yield": 1,
@@ -2240,6 +2355,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Light_armor",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -2257,6 +2373,7 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Light_oil",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": null,
         "yield": null,
@@ -2269,9 +2386,10 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Light_oil_barrel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 0.2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -2281,6 +2399,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Locomotive",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 4,
         "yield": 1,
@@ -2306,6 +2425,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Logistic_robot",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2327,6 +2447,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Long_handed_inserter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2352,6 +2473,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Low_density_structure",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 30,
         "yield": 1,
@@ -2377,6 +2499,7 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Lubricant",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": 1,
         "yield": 10,
@@ -2394,9 +2517,10 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Lubricant_barrel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 0.2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -2406,6 +2530,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Medium_electric_pole",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2427,6 +2552,7 @@
       "type": "Science pack",
       "wiki_link": "https://wiki.factorio.com/Military_science_pack",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 2,
@@ -2452,6 +2578,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Modular_armor",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -2473,6 +2600,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Nightvision",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -2494,6 +2622,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Nuclear_fuel",
       "category": "Intermediate product",
+      "crafter-category": "centrifuge",
       "recipe": {
         "time": 60,
         "yield": 1,
@@ -2515,6 +2644,7 @@
       "type": "Process",
       "wiki_link": "https://wiki.factorio.com/Nuclear_fuel_reprocessing",
       "category": "Intermediate product",
+      "crafter-category": "centrifuge",
       "recipe": {
         "time": 50,
         "yield": null,
@@ -2536,6 +2666,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Nuclear_reactor",
       "category": "Production",
+      "crafter-categories": ["reactor"],
+      "crafting-speed": 1,
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -2565,6 +2698,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Offshore_pump",
       "category": "Production",
+      "crafter-categories": ["water-pump"],
+      "crafting-speed": 1,
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2590,6 +2726,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Oil_refinery",
       "category": "Production",
+      "crafter-categories": ["refinery"],
+      "crafter-category": "assembler",
+      "crafting-speed": 1,
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -2623,6 +2762,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Passive_provider_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2648,6 +2788,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Personal_laser_defense",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -2673,6 +2814,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Personal_roboport",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -2702,6 +2844,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Personal_roboport_MK2",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 20,
         "yield": 1,
@@ -2723,6 +2866,7 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Petroleum_gas",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": null,
         "yield": null,
@@ -2735,9 +2879,10 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Petroleum_gas_barrel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 0.2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -2747,6 +2892,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Piercing_rounds_magazine",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -2772,6 +2918,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Piercing_shotgun_shells",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -2797,6 +2944,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Pipe",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -2814,6 +2962,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Pipe_to_ground",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 2,
@@ -2835,6 +2984,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Pistol",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -2856,6 +3006,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Plastic_bar",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": 1,
         "yield": 2,
@@ -2877,6 +3028,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Poison_capsule",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -2902,6 +3054,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Portable_fusion_reactor",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -2919,6 +3072,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Portable_solar_panel",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -2944,6 +3098,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Power_armor",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 20,
         "yield": 1,
@@ -2969,6 +3124,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Power_armor_MK2",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 25,
         "yield": 1,
@@ -2998,6 +3154,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Power_switch",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -3023,6 +3180,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Processing_unit",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -3048,6 +3206,7 @@
       "type": "Science pack",
       "wiki_link": "https://wiki.factorio.com/Production_science_pack",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 14,
         "yield": 2,
@@ -3069,6 +3228,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Productivity_module",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -3090,6 +3250,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Productivity_module_2",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 30,
         "yield": 1,
@@ -3115,6 +3276,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Productivity_module_3",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 60,
         "yield": 1,
@@ -3140,6 +3302,7 @@
       "type": "Logic",
       "wiki_link": "https://wiki.factorio.com/Programmable_speaker",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -3165,6 +3328,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Pump",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 2,
         "yield": 1,
@@ -3190,6 +3354,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Pumpjack",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -3219,6 +3384,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Radar",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -3244,6 +3410,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Rail",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 2,
@@ -3269,6 +3436,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Rail_chain_signal",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -3290,6 +3458,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Rail_signal",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -3311,9 +3480,10 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Raw_fish",
       "category": "Intermediate product",
+      "crafter-category": "manual",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 1,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -3323,9 +3493,10 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Raw_wood",
       "category": "Intermediate product",
+      "crafter-category": "manual",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 1,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -3335,6 +3506,7 @@
       "type": "Logic",
       "wiki_link": "https://wiki.factorio.com/Red_wire",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -3356,6 +3528,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Refined_concrete",
       "category": "Logistics",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 15,
         "yield": 10,
@@ -3385,6 +3558,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Refined_hazard_concrete",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.25,
         "yield": 10,
@@ -3402,6 +3576,7 @@
       "type": "Tool",
       "wiki_link": "https://wiki.factorio.com/Repair_pack",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -3423,6 +3598,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Requester_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -3448,6 +3624,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Roboport",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -3473,6 +3650,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Rocket",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -3498,6 +3676,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Rocket_control_unit",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 30,
         "yield": 1,
@@ -3519,6 +3698,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Rocket_fuel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
         "time": 30,
         "yield": 1,
@@ -3536,6 +3716,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Rocket_launcher",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -3561,6 +3742,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Rocket_part",
       "category": "Intermediate product",
+      "crafter-category": "silo",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -3586,6 +3768,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Rocket_silo",
       "category": "Combat",
+      "crafter-categories":["silo"],
+      "crafting-speed": 1,
+      "crafter-category": "assembler",
       "recipe": {
         "time": 30,
         "yield": 1,
@@ -3619,6 +3804,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Satellite",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -3656,6 +3842,7 @@
       "type": "Science pack",
       "wiki_link": "https://wiki.factorio.com/Science_pack_1",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 5,
         "yield": 1,
@@ -3677,6 +3864,7 @@
       "type": "Science pack",
       "wiki_link": "https://wiki.factorio.com/Science_pack_2",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 6,
         "yield": 1,
@@ -3698,6 +3886,7 @@
       "type": "Science pack",
       "wiki_link": "https://wiki.factorio.com/Science_pack_3",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 12,
         "yield": 1,
@@ -3723,6 +3912,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Shotgun",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -3752,6 +3942,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Shotgun_shells",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -3773,6 +3964,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Slowdown_capsule",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -3798,6 +3990,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Small_electric_pole",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 2,
@@ -3819,6 +4012,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Solar_panel",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -3844,6 +4038,7 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Solid_fuel",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": null,
         "yield": null,
@@ -3856,6 +4051,7 @@
       "type": "Science pack",
       "wiki_link": "https://wiki.factorio.com/Space_science_pack",
       "category": "Intermediate product",
+      "crafter-category": "silo",
       "recipe": {
         "time": 300,
         "yield": 1000,
@@ -3877,6 +4073,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Speed_module",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 15,
         "yield": 1,
@@ -3898,6 +4095,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Speed_module_2",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 30,
         "yield": 1,
@@ -3923,6 +4121,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Speed_module_3",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 60,
         "yield": 1,
@@ -3948,6 +4147,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Splitter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 1,
         "yield": 1,
@@ -3973,6 +4173,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Stack_filter_inserter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -3994,6 +4195,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Stack_inserter",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4023,6 +4225,7 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Steam",
       "category": "Intermediate product",
+      "crafter-category": "boiler",
       "recipe": {
         "time": null,
         "yield": null,
@@ -4035,6 +4238,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Steam_engine",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4060,6 +4264,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Steam_turbine",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -4085,6 +4290,7 @@
       "type": "Tool",
       "wiki_link": "https://wiki.factorio.com/Steel_axe",
       "category": "Production",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4106,6 +4312,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Steel_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4123,6 +4330,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Steel_furnace",
       "category": "Production",
+      "crafter-categories": ["smelter"],
+      "crafting-speed": 2,
+      "crafter-category": "assembler",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -4144,6 +4354,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Steel_plate",
       "category": "Intermediate product",
+      "crafter-category": "smelter",
       "recipe": {
         "time": 35,
         "yield": 1,
@@ -4161,9 +4372,10 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Stone",
       "category": "Intermediate product",
+      "crafter-category": "miner",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 1,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -4173,6 +4385,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Stone_brick",
       "category": "Logistics",
+      "crafter-category": "smelter",
       "recipe": {
         "time": 3.5,
         "yield": 1,
@@ -4190,6 +4403,9 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Stone_furnace",
       "category": "Production",
+      "crafter-categories": ["smelter"],
+      "crafting-speed": 1,
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4207,6 +4423,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Stone_wall",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4224,6 +4441,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Storage_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4249,6 +4467,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Storage_tank",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 3,
         "yield": 1,
@@ -4270,6 +4489,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Submachine_gun",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -4295,6 +4515,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Substation",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4320,6 +4541,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Sulfur",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": 1,
         "yield": 2,
@@ -4341,6 +4563,7 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Sulfuric_acid",
       "category": "Intermediate product",
+      "crafter-category": "chem",
       "recipe": {
         "time": 1,
         "yield": 50,
@@ -4366,9 +4589,10 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Sulfuric_acid_barrel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 0.2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -4378,6 +4602,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Tank",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 8,
         "yield": 1,
@@ -4407,6 +4632,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Train_stop",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
@@ -4432,6 +4658,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Transport_belt",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 2,
@@ -4453,6 +4680,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Underground_belt",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 1,
         "yield": 2,
@@ -4474,6 +4702,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Uranium_cannon_shell",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 12,
         "yield": 1,
@@ -4495,6 +4724,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Uranium_fuel_cell",
       "category": "Intermediate product",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 10,
@@ -4520,9 +4750,10 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Uranium_ore",
       "category": "Intermediate product",
+      "crafter-category": "miner",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -4532,6 +4763,7 @@
       "type": "Process",
       "wiki_link": "https://wiki.factorio.com/Uranium_processing",
       "category": "Intermediate product",
+      "crafter-category": "centrifuge",
       "recipe": {
         "time": 10,
         "yield": null,
@@ -4557,6 +4789,7 @@
       "type": "Combat",
       "wiki_link": "https://wiki.factorio.com/Uranium_rounds_magazine",
       "category": "Combat",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 10,
         "yield": 1,
@@ -4578,6 +4811,7 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Uranium-235",
       "category": "Intermediate product",
+      "crafter-category": "centrifuge",
       "recipe": {
         "time": null,
         "yield": null,
@@ -4590,6 +4824,7 @@
       "type": "Resource",
       "wiki_link": "https://wiki.factorio.com/Uranium-238",
       "category": "Intermediate product",
+      "crafter-category": "centrifuge",
       "recipe": {
         "time": null,
         "yield": null,
@@ -4602,6 +4837,7 @@
       "type": "Item",
       "wiki_link": "https://wiki.factorio.com/Used_up_uranium_fuel_cell",
       "category": "Intermediate product",
+      "crafter-category": "reactor",
       "recipe": {
         "time": 200,
         "yield": 1,
@@ -4619,9 +4855,10 @@
       "type": "Liquid",
       "wiki_link": "https://wiki.factorio.com/Water",
       "category": "Intermediate product",
+      "crafter-category": "water-pump",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 1,
+        "yield": 1200,
         "ingredients": []
       }
     },
@@ -4631,9 +4868,10 @@
       "type": "null",
       "wiki_link": "https://wiki.factorio.com/Water_barrel",
       "category": "Intermediate product",
+      "crafter-category": "fluid-assembler",
       "recipe": {
-        "time": null,
-        "yield": null,
+        "time": 0.2,
+        "yield": 1,
         "ingredients": []
       }
     },
@@ -4643,6 +4881,7 @@
       "type": "Intermediate product",
       "wiki_link": "https://wiki.factorio.com/Wood",
       "category": "Intermediate product",
+      "crafter-category": "manual",
       "recipe": {
         "time": 0.5,
         "yield": 2,
@@ -4660,6 +4899,7 @@
       "type": "Machinery",
       "wiki_link": "https://wiki.factorio.com/Wooden_chest",
       "category": "Logistics",
+      "crafter-category": "assembler",
       "recipe": {
         "time": 0.5,
         "yield": 1,
