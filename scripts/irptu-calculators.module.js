@@ -114,16 +114,17 @@ function updateProdChainCrafterData(prodChainData, timeUnit) {
         const recipe = recipes[requiredItemID]
         const craftTime = recipe["recipe"]["time"]
         const recipeYield = recipe["recipe"]["yield"]
-        const crafter = requiredItemData["crafter"]
-        const crafterSpeed = recipes[crafter]["crafting-speed"]
-        const craftTimePerItem = (craftTime / crafterSpeed) / recipeYield; // seconds per item
-        const craftRate = getTimeUnitConversionRatio("second", timeUnit) / craftTimePerItem; // items per timeUnit
-        const targetRate = requiredItemData["userIRPTU"] + requiredItemData["intermIRPTU"]; // items per timeUnit
-        const craftersRequired = targetRate / craftRate;
-
-        // const totalTimeRequired = timePerCraft * craftsPerTimeUnit
-        // const craftersRequired = totalTimeRequired / timePerCraft
-        requiredItemData["crafterCount"] = craftersRequired
+        if(craftTime === null || recipeYield === null) {
+            requiredItemData["crafterCount"] = "N/A"
+        } else {
+            const crafter = requiredItemData["crafter"]
+            const crafterSpeed = recipes[crafter]["crafting-speed"]
+            const craftTimePerItem = (craftTime / crafterSpeed) / recipeYield;
+            const craftRate = getTimeUnitConversionRatio("second", timeUnit) / craftTimePerItem;
+            const targetRate = requiredItemData["userIRPTU"] + requiredItemData["intermIRPTU"];
+            const craftersRequired = targetRate / craftRate;
+            requiredItemData["crafterCount"] = craftersRequired
+        }
 
         prodChainData[requiredItemID] = requiredItemData;
     }
